@@ -24,3 +24,8 @@ El archivo _**.gitignore**_ debe ser creado al inicio del proyecto, antes de rea
 
 ### ¿Cómo configuraría el archivo .gitignore?
 El archivo .gitignore está compuesto por una lista de patrones que indican qué archivos y carpetas deben ser ignorados, y depende de cada proyecto decidir cualés archivos conviene ignorar, siguiendo los lineamientos mencionados anteriormente de cuando es conveniente usar esta herramienta.
+
+#### g) Si resolvió correctamente los apartados 2 y 3 del punto anterior notará que el resultado es el mismo. ¿a qué se debe? ¿Qué obtiene en el punto 4? ¿Es igual a los anteriores? ¿Por qué? Responder en el archivo readme.md
+
+En los apartados 2) y 3) el resultado es el mismo ya que el puntero utilizado guarda la direccion de memoria de la variable num, en este caso. Es decir, que la dirección de memoria almacenada por el puntero es la direccion de la variable num.
+En el apartado 4) el resultado es diferente ya que mostramos por pantalla la dirección de memoria del puntero. Es distinta a las anteriores ya que el puntero, a pesar de "apuntar" a otra direccion de memoria de otra variable, es una variable y como cualquier otra ocupa espacio de memoria y por lo tanto tiene su propia dirección de memoria. Cuando declaras un puntero, se reserva espacio para él en la memoria de la pila (stack) o memoria estática. Esto significa que la dirección de memoria del puntero es la ubicación donde se guarda esa variable puntero en la memoria.
